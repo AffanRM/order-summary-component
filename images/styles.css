@@ -1,0 +1,108 @@
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+    background-image: url("/images/pattern-background-desktop.svg");
+    
+}
+.main-container{
+    width: 35%;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: auto;
+    max-width: 80%;
+    margin-top: 2%;
+    background-color: rgb(253, 253, 253);
+}
+
+.flex-container{
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
+    padding: 5px;
+    align-items: center;
+    background-color: lightgrey;
+    border-radius: 20px;
+}
+.secondary-container{
+    padding: 75px;
+}
+.main-img{
+    border-radius: 20px;
+    width: 100%;
+}
+.payment-btn{
+    width: 100%;
+    display: block;
+    padding: 15px;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    /* background-color: hsl(224, 23%, 55%); */
+    /* background-color: hsl(223, 47%, 23%); */
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+}
+.plan-container{
+    margin-right: 140px;
+}
+.plan-para{
+    margin-bottom: 0px;
+}
+.pricing-para{
+    margin-top: 0px;
+}
+.cancel-container{
+    margin-bottom: 10px;
+}
+.cancel-href{
+    color: rgb(90, 90, 90);
+    /* outline: none; */
+    text-decoration: none;
+}
+p{
+    font-size: 16px;
+}
+.change-href{
+    color: rgb(78, 0, 109);
+}
+
+.cancel-href:hover{
+    color: black;
+    font-weight: 500;
+}
+.payment-btn:hover{
+    cursor: pointer;
+    background-color: rgb(119, 24, 163);
+}
+.change-href:hover{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+@media screen and (max-width: 1700px) {
+    .main-container {
+      width: 50%;
+    }
+    .secondary-container{
+        padding: 40px;
+        
+    }
+    .plan-container{
+        margin-right: 50px;
+    } 
+}
+
+@media screen and (max-width: 900px) {
+    .main-container {
+      width: 80%;
+    }
+    .plan-container{
+        margin-right: 20px;
+    }
+    .secondary-container{
+        padding: 20px;
+    }
+    .main-container{
+        margin-top: 50px;
+    }
+}
